@@ -1,18 +1,48 @@
-body {
+ * {
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    /*border: 2px solid red;*/
 }
 
 .heading-container {
-    border-radius: 10px;;
+    border-radius: 10px;
     padding: 25px;
-    margin: 10px 0px;
+    margin: 10px;
     background-color: aquamarine;
+    
 }
 
 .title-recipe-image{
+    max-width: 100%;
+    height: auto;
     width: 650px;
     margin: 0 auto;
 }
+
+.recipe-intro,
+.recipe-ingredients,
+.recipe-instructions {
+    padding: 10px 20px;
+}
+
+li.recipe-step {
+    padding: 10px;
+}
+
+img.recipe-step-image {
+    width: 300px;
+    height: auto;
+    margin: 0 auto;
+}
+
+
+.footer-nav {
+    text-align: center;
+    width: 500px;
+    margin: 0 auto;
+}
+
+
 
 h1 {
     text-align: center;
